@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.expendlistview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.XemChiTietTinTuyenDung"></activity>
+        <activity android:name=".Activity.FormCapNhatTinTuyenDung"
+            android:label="CẬP NHẬT TIN"
+            android:parentActivityName=".Activity.DangTinTuyenDung"/>
+        <activity android:name=".WebView.HeThongNghienCuuKhoaHocVaHopTacDoanhNghiep" />
+        <activity
+            android:name=".Activity.DangTinTuyenDung"
+            android:label="ĐĂNG TIN TUYỂN DỤNG"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activity.DeXuatBiTuChoi"
+            android:label="Đề xuất bị từ chối"
+            android:parentActivityName=".Activity.FormDeXuatChuongTrinhLienKet" />
+        <activity
+            android:name=".Activity.DeXuatDuocChapNhan"
+            android:label="Đề xuất được chấp nhận"
+            android:parentActivityName=".Activity.FormDeXuatChuongTrinhLienKet" />
+        <activity
+            android:name=".Activity.DeXuatChuaCoPhanHoi"
+            android:label="Đề xuất chờ phản hồi"
+            android:parentActivityName=".Activity.FormDeXuatChuongTrinhLienKet" />
+        <activity
+            android:name=".Activity.XemChiTietChuongTrinhLienKet"
+            android:label="CHI TIẾT ĐỀ XUẤT CHƯƠNG TRÌNH LIÊN KẾT"
+            android:parentActivityName=".Activity.QuanLyChuongTrinhLienKet" />
+        <activity
+            android:name=".Activity.FormPhanHoiDeXuatChuongTrinhLienKet"
+            android:label="PHẢN HỒI ĐỀ XUẤT"
+            android:parentActivityName=".Activity.QuanLyChuongTrinhLienKet" />
+        <activity android:name=".Activity.QuanLyChuongTrinhLienKet" />
+        <activity
+            android:name=".Activity.FormDeXuatChuongTrinhLienKet"
+            android:label="ĐỀ XUẤT CHƯƠNG TRÌNH LIÊN KẾT"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activity.ThemDoanhNghiep"
+            android:label="THÊM DOANH NGHIỆP"
+            android:parentActivityName=".Activity.DanhSachDoanhNghiep" />
+        <activity
+            android:name=".Activity.FormCapNhatDoanhNghiep"
+            android:label="CẬP NHẬT DOANH NGHIỆP"
+            android:parentActivityName=".Activity.DanhSachDoanhNghiep" />
+        <activity android:name=".Activity.DanhSachDoanhNghiep" />
+        <activity
+            android:name=".Activity.DeTaiBiHuy"
+            android:label="Đề tài bị hủy"
+            android:parentActivityName=".Activity.DeTaiCuaToi" />
+        <activity
+            android:name=".Activity.DeTaiDuocDuyet"
+            android:label="Đề tài được duyệt"
+            android:parentActivityName=".Activity.DeTaiCuaToi" />
+        <activity
+            android:name=".Activity.DeTaiDaDangKy"
+            android:label="Đề tài đã đăng ký"
+            android:parentActivityName=".Activity.DeTaiCuaToi" />
+        <activity
+            android:name=".Activity.DeTaiCuaToi"
+            android:label="Đề tài của tôi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activity.FormPheDuyetDeTai"
+            android:label="Phê duyệt đề tài"
+            android:parentActivityName=".Activity.PheDuyetDeTai" />
+        <activity android:name=".Activity.PheDuyetDeTai" />
+        <activity
+            android:name=".Activity.DangKyDeTai"
+            android:label="Đăng ký đề tài"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Activity.SuaVaXoaTaiLieuNghienCuu"
+            android:label="Cập nhật tài liệu"
+            android:parentActivityName=".Activity.QuanLyTaiLieu" />
+        <activity
+            android:name=".Activity.ThemTaiLieuNghienCuu"
+            android:label="Thêm tài liệu"
+            android:parentActivityName=".Activity.QuanLyTaiLieu" />
+        <activity android:name=".Activity.QuanLyTaiLieu" />
+        <activity android:name=".Activity.TaiLieuNghienCuuActivity" />
+        <activity android:name=".Activity.ActitityDemo" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

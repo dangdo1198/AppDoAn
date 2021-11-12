@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FormPheDuyetDeTai"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/pheduyet"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"></ImageView>
+    <EditText
+
+        android:textAlignment="center"
+        android:textColor="#1A7E2F"
+        android:background="#C5EAEF"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="215dp"
+        android:id="@+id/id_txt"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        ></EditText>
+    <EditText
+
+        android:textColor="#CA7C09"
+        android:background="#C5EAEF"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="180dp"
+        android:id="@+id/tensv_txt"
+        android:layout_width="210dp"
+        android:layout_height="50dp"></EditText>
+    <EditText
+        android:textColor="#CA7C09"
+        android:background="#C5EAEF"
+        android:layout_marginStart="50dp"
+        android:layout_width="350dp"
+        android:layout_marginTop="290dp"
+        android:id="@+id/tendetai_txt"
+
+        android:layout_height="50dp"></EditText>
+    <EditText
+        android:textColor="#CA7C09"
+        android:background="#C5EAEF"
+        android:layout_marginStart="90dp"
+        android:layout_width="350dp"
+        android:layout_marginTop="360dp"
+        android:id="@+id/quyetdinh_txt"
+        android:hint="DUYỆT/HỦY"
+        android:layout_height="50dp"></EditText>
+    <EditText
+        android:textColor="#CA7C09"
+        android:background="#C5EAEF"
+        android:layout_marginStart="70dp"
+        android:layout_width="330dp"
+        android:layout_marginTop="430dp"
+        android:id="@+id/lydo_txt"
+
+        android:layout_height="50dp"></EditText>
+    <Button
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="50dp"
+        android:background="#63A5E6"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textColor="#F7FDFD"
+        android:id="@+id/luu_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></Button>
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:layout_marginTop="235dp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#131212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"></androidx.constraintlayout.utils.widget.MotionLabel>
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:layout_marginTop="235dp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_marginStart="100dp"
+        android:textColor="#131212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINH VIÊN:"></androidx.constraintlayout.utils.widget.MotionLabel>
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#131212"
+        android:layout_marginTop="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐỀ TÀI:"></androidx.constraintlayout.utils.widget.MotionLabel>
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#131212"
+        android:layout_marginTop="380dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUYẾT ĐỊNH:"></androidx.constraintlayout.utils.widget.MotionLabel>
+    <androidx.constraintlayout.utils.widget.MotionLabel
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#131212"
+        android:layout_marginTop="450dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHẢN HỒI:"></androidx.constraintlayout.utils.widget.MotionLabel>
+</RelativeLayout>

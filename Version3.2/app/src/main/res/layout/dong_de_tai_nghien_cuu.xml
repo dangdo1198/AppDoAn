@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout1"
+    android:background="#EBF4EB">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="7dp"
+            android:background="#F2F4D9"
+
+            >
+            <TextView
+                android:id="@+id/id_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="@color/mdtp_done_text_color_normal"
+                android:textSize="20sp"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:id="@+id/hovaten_txt"
+                android:layout_below="@id/id_txt"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đặng Văn Đô">
+                
+            </TextView>
+            <TextView
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:id="@+id/masv_txt"
+                android:layout_below="@id/id_txt"
+                android:textColor="#371004"
+                android:layout_marginStart="235dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CT010108"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:id="@+id/tendetai_txt"
+                android:textStyle="italic"
+                android:textColor="#815006"
+                android:layout_below="@id/masv_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lập trình android"></TextView>
+            <TextView
+                android:layout_marginStart="70dp"
+                android:textSize="17sp"
+                android:paddingTop="5dp"
+                android:id="@+id/thoigian_txt"
+                android:layout_below="@id/tendetai_txt"
+                android:textColor="@color/mdtp_done_text_color_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 tháng"></TextView>
+            <TextView
+                android:textSize="17sp"
+                android:paddingTop="5dp"
+                android:id="@+id/kinhphi_txt"
+                android:layout_below="@id/tendetai_txt"
+                android:textColor="#BC8A27"
+                android:layout_marginStart="250dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200.000$"></TextView>
+            <TextView
+                android:layout_marginStart="80dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:id="@+id/ghichu_txt"
+                android:layout_below="@id/kinhphi_txt"
+                android:textColor="#147169"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đề tài hay"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/trangthai_txt"
+
+                android:layout_marginStart="320dp"
+                android:textColor="#F31F0F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DUYỆT">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_below="@id/ghichu_txt"
+                android:layout_marginStart="275dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit"
+                ></ImageView>
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_marginStart="330dp"
+                android:layout_below="@id/ghichu_txt"
+                android:background="@drawable/delete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"></ImageView>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_marginTop="7dp"
+                android:textStyle="italic"
+                android:textColor="@color/mdtp_done_text_color_dark_disabled"
+                android:textSize="17sp"
+                android:id="@+id/dukienlabel"
+                android:layout_below="@id/tendetai_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dự kiến:"></androidx.constraintlayout.utils.widget.MotionLabel>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="180dp"
+                android:textStyle="italic"
+                android:textColor="@color/mdtp_done_text_color_dark_disabled"
+                android:textSize="17sp"
+                android:id="@+id/kinhphilabel"
+                android:layout_below="@id/tendetai_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kinh phí:"></androidx.constraintlayout.utils.widget.MotionLabel>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="180dp"
+                android:textStyle="italic"
+                android:textColor="@color/mdtp_done_text_color_dark_disabled"
+                android:textSize="17sp"
+                android:id="@+id/masvlabel"
+                android:layout_below="@id/id_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã SV:"></androidx.constraintlayout.utils.widget.MotionLabel>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_marginTop="7dp"
+
+                android:textStyle="italic"
+                android:textColor="@color/mdtp_done_text_color_dark_disabled"
+                android:textSize="17sp"
+                android:id="@+id/chuthichlabel"
+                android:layout_below="@id/thoigian_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chú thích:"></androidx.constraintlayout.utils.widget.MotionLabel>
+        </RelativeLayout>
+
+</LinearLayout>

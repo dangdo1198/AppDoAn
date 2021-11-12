@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background3"
+    tools:context=".Activity.DangKyDeTai"
+    android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/idea">
+
+        </ImageView>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:hint="Họ và tên"
+
+            android:layout_below="@id/imageView"
+            android:id="@+id/hovaten_input"
+            android:layout_width="250dp"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:hint="Mã sinh viên"
+            android:layout_below="@id/imageView"
+            android:layout_toRightOf="@id/hovaten_input"
+            android:id="@+id/masinhvien_input"
+            android:layout_width="match_parent"
+           android:layout_marginLeft="10dp"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:hint="Khoa"
+            android:layout_below="@id/hovaten_input"
+            android:id="@+id/khoa_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:hint="Tên đề tài"
+            android:layout_below="@id/khoa_input"
+            android:id="@+id/detai_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:hint="Lĩnh vực"
+            android:layout_below="@id/detai_input"
+            android:id="@+id/linhvuc_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:hint="Thời gian dự kiến"
+            android:layout_below="@id/linhvuc_input"
+            android:id="@+id/thoigian_input"
+            android:layout_width="150dp"
+            android:layout_height="40dp"></EditText>
+        <EditText
+            android:hint="Kinh phí"
+           android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/thoigian_input"
+            android:layout_below="@id/linhvuc_input"
+            android:id="@+id/kinhphi_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></EditText>
+
+        <EditText
+            android:hint="Ghi chú"
+            android:layout_below="@id/kinhphi_input"
+            android:id="@+id/ghichu_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"></EditText>
+
+
+        <Button
+            android:id="@+id/dangky_input"
+           android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/ghichu_input"
+            android:layout_width="200dp"
+            android:text="ĐĂNG KÝ"
+            android:layout_height="50dp"
+            android:background="@color/background2"
+            android:alpha="0.7"
+           ></Button>
+
+
+
+</RelativeLayout>

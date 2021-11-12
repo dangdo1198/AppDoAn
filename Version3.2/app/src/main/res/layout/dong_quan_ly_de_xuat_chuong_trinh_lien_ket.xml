@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+
+    android:orientation="vertical"
+    android:id="@+id/linearquanlychuongtrinhlienket">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_margin="10dp"
+        android:background="#F0F8F0">
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/id_txt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="10"
+            android:background="#E8BAC9"
+            android:textAlignment="center"
+            android:textSize="25sp">
+
+        </TextView>
+        <TextView
+            android:background="#F1EED6"
+            android:id="@+id/tendoanhnghiep_txt"
+            android:text="Viettel"
+            android:textColor="#4CAF50"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_width="380dp"
+            android:layout_height="40dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/nguoidaidien_txt"
+            android:textSize="19dp"
+            android:text="Trần Mạnh Hà"
+            android:textStyle="bold"
+            android:background="#EFEAC4"
+            android:layout_marginTop="150dp"
+            android:layout_width="380dp"
+            android:layout_height="40dp">
+
+        </TextView>
+        <TextView
+            android:background="#F3EDBD"
+            android:id="@+id/chucvu_txt"
+            android:text="Trưởng phòng tuyển dụng"
+            android:textSize="19sp"
+            android:textStyle="italic"
+            android:layout_marginTop="200dp"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:textColor="@color/mdtp_line_dark">
+
+        </TextView>
+        <TextView
+            android:background="#F4F3E7"
+            android:id="@+id/tenchuongtrinh_txt"
+            android:layout_marginTop="50dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="Ngày hội hướng nghiệp công nghệ"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:textColor="#FF5722">
+
+        </TextView>
+        <TextView
+            android:id="@+id/trangthai_txt"
+            android:layout_marginStart="300dp"
+            android:text="ĐỒNG Ý"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:textColor="#DC890F"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="20sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Xem chi tiết"
+            android:textColor="#0E24A3"
+            android:textSize="18sp"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"></androidx.constraintlayout.utils.widget.MotionLabel>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:textColor="#129809"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:text="Phản hồi"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="150dp"
+            android:textStyle="italic"></androidx.constraintlayout.utils.widget.MotionLabel>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:textColor="#E3420F"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:text="Xóa"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="280dp"
+            android:textStyle="italic"></androidx.constraintlayout.utils.widget.MotionLabel>
+        <ImageView
+            android:src="@drawable/chitielk1"
+            android:id="@+id/chitiet_img"
+            android:layout_width="30pt"
+            android:layout_height="20pt"
+            android:layout_marginTop="290dp"
+            android:layout_marginStart="35dp">
+
+        </ImageView>
+        <ImageView
+            android:src="@drawable/responselk"
+            android:id="@+id/phanhoi_img"
+            android:layout_width="30pt"
+            android:layout_height="20pt"
+            android:layout_marginTop="290dp"
+            android:layout_marginStart="165dp">
+
+        </ImageView>
+        <ImageView
+           android:src="@drawable/xoalk"
+            android:id="@+id/xoa_img"
+            android:layout_width="30pt"
+            android:layout_height="20pt"
+            android:layout_marginTop="290dp"
+            android:layout_marginStart="285dp">
+
+        </ImageView>
+        <ImageView
+            android:background="#9DE6EF"
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="50dp"></ImageView>
+        <ImageView
+            android:layout_width="200dp"
+            android:background="#64F36A"
+            android:layout_height="5dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="100dp"></ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

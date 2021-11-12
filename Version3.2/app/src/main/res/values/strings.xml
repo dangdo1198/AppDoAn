@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_caidat">Setting</string>
+    <string name="menu_item_gioithieu">About</string>
+    <string name="menu_item_trogiup">Help</string>
+    <string name="menu_item_dangxuat">Log Out</string>
+    <array name="dexuatchophanhoi">
+        <item>Đề xuất chờ phản hồi</item>
+        <item>Đề xuất được chấp nhận</item>
+        <item>Đề xuất bị từ chối</item>
+    </array>
+    <array name="dexuatdongy">
+        <item>Đề xuất được chấp nhận</item>
+        <item>Đề xuất chờ phản hồi</item>
+        <item>Đề xuất bị từ chối</item>
+    </array>
+    <array name="dexuattuchoi">
+        <item>Đề xuất bị từ chối</item>
+        <item>Đề xuất được chấp nhận</item>
+        <item>Đề xuất chờ phản hồi</item>
+    </array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FormPhanHoiDeXuatChuongTrinhLienKet">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="#A1F4ED"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/id_txt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"></TextView>
+    <TextView
+
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="#ABEFE9"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/tenchuongtrinh_txt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"></TextView>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="#C2EFEA"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/tendoanhnghiep_txt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"></TextView>
+    <EditText
+        android:textColor="#087E0D"
+        android:background="#D3F1EE"
+        android:hint="ĐỒNG Ý/TỪ CHỐI"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="230dp"
+        android:id="@+id/quyetdinh_edt"
+        android:layout_width="330dp"
+    android:layout_height="40dp"></EditText>
+    <EditText
+        android:textColor="#BC380F"
+        android:background="#E8F6F5"
+        android:hint="Lời nhắn ..."
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:id="@+id/loinhan_edt"
+        android:layout_width="330dp"
+        android:layout_height="40dp"></EditText>
+    <ImageView
+        android:src="@drawable/savephanhoi"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/save_img"
+        android:layout_width="300dp"
+        android:layout_height="60dp"></ImageView>
+
+</RelativeLayout>

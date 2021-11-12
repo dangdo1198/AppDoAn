@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoStart="true"
+            android:inAnimation="@anim/slide_in_left"
+            android:outAnimation="@anim/slide_out_left"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nckh"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hvmm5"
+                >
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/htdn"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hvmm5"
+                >
+
+            </ImageView>
+
+
+
+
+        </ViewFlipper>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trang chủ"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:background="@android:color/darker_gray"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/textkhoahoc"
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:text="NGHIÊN CỨU VÀ PHÁT TRIỂN KHOA HỌC"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:paddingTop="10dp"
+                            android:textColor="#1B2C8E"
+                            android:textStyle="bold">
+
+                        </TextView>
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@id/textkhoahoc"
+                            android:id="@+id/imagekhoahoc"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="210dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/nckhhinhto">
+
+                        </ImageView>
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/text1"
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@id/imagekhoahoc"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Kế hoạch hoạt động"
+                            android:textColor="#3F51B5"
+                            android:textStyle="bold">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text1"
+                            android:id="@+id/text2"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="1.Triển khai đăng ký đề tài nghiên cứu khoa học. ">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text2"
+                            android:id="@+id/text21"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 01/09/2021 -> 30/09/2021 (Sinh viên thực hiện) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text21"
+                            android:id="@+id/text3"
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:text="2.Tổng hợp và phê duyệt đề tài. ">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text3"
+                            android:id="@+id/text31"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 01/10/2021 -> 05/10/2021 (Cán bộ giảng viên phụ trách) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text31"
+                            android:id="@+id/text4"
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:text="3.Thực hiện và triển khai đề tài. ">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text4"
+                            android:id="@+id/text41"
+                            android:layout_width="210dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 06/10/2021 -> 31/12/2021(Sinh viên thực hiện đề tài) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text41"
+                            android:id="@+id/text5"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="4.Hoàn tất và nộp báo cáo đề tài nghiên cứu tới cán bộ phụ trách.">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text5"
+                            android:id="@+id/text51"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 01/01/2022 -> 05/01/2022 (Sinh viên) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text51"
+                            android:id="@+id/text6"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="5.Phân công cán bộ phản biện đề tài của sinh viên. ">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text6"
+                            android:id="@+id/text61"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 06/01/2022 (Cán bộ quản lý) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text61"
+                            android:id="@+id/text7"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="6. Hoàn thiện và chỉnh sửa báo cáo đề tài nghiên cứu.">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text7"
+                            android:id="@+id/text71"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 07/01/2022 -> 10/01/2022 (Sinh viên) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text71"
+                            android:id="@+id/text8"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="7.Phân công hội đồng chấm thi đề tài nghiên cứu phát triển khoa học.">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text8"
+                            android:id="@+id/text81"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 11/01/2022 (Cán bộ quản lý) ">
+
+                        </TextView>
+                        <TextView
+                            android:textColor="@color/mdtp_done_text_color_normal"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text81"
+                            android:id="@+id/text9"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="8.Tổ chức thi và chấm điểm đề tài.">
+
+                        </TextView>
+                        <TextView
+                            android:textStyle="italic"
+                            android:textColor="@color/mdtp_transparent_black"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@id/text9"
+                            android:id="@+id/text91"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Thời gian: 12/01/2022 và 13/01/2022 (Sinh viên và hội đồng khảo thí) ">
+
+                        </TextView>
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:text="Cơ hội việc làm cho sinh viên"
+                            android:textColor="#DF9B36"
+                            android:textStyle="italic|bold">
+
+                        </TextView>
+
+                        <ScrollView
+                            android:layout_width="170dp"
+                            android:layout_height="200dp">
+
+                        </ScrollView>
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:text="LIÊN KẾT DOANH NGHIỆP"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:paddingTop="10dp"
+                            android:textColor="#1B2C8E"
+                            android:textStyle="bold">
+
+                        </TextView>
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/lienketdoanhnghiephinhto">
+                        </ImageView>
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#AF360F"
+                            android:textSize="15sp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sự kiện sắp tới">
+
+                        </TextView>
+                        <ScrollView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="170dp"
+                            android:layout_height="250dp">
+
+                        </ScrollView>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="#3F51B5"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:text="Một số doanh nghiệp hợp tác nổi bật">
+
+                        </TextView>
+                        <ImageView
+                            android:background="@drawable/nhanhieu"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="170dp"
+                            android:layout_height="120dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/footer1">
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="90dp"
+                            android:id="@+id/hinhlogolink"
+                            android:layout_below="@id/f4"
+                            android:background="@drawable/logolink"
+                            android:layout_width="248dp"
+                            android:layout_height="25dp"></ImageView>
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/f1"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/mdtp_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Trung tâm nghiên, phát triển khoa học và hợp tác doanh nghiệp KMA">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/f2"
+                            android:layout_below="@+id/f1"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/mdtp_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Địa chỉ: 141 đường Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/f3"
+                            android:layout_below="@+id/f2"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/mdtp_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Email: hocvienkythuatmatma@gmail.com">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/f4"
+                            android:layout_below="@+id/f3"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/mdtp_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotline: 0987654321">
+
+                        </TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ExpandableListView
+
+        android:id="@+id/navList"
+        android:layout_gravity="left|start"
+        android:background="#343640"
+        android:divider="@android:color/white"
+        android:dividerHeight="0.5dp"
+        android:indicatorEnd="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:layout_width="235dp"
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</androidx.drawerlayout.widget.DrawerLayout>

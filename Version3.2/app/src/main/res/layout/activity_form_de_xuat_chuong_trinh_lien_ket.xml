@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FormDeXuatChuongTrinhLienKet"
+    android:background="#15BFD5">
+    <EditText
+        android:hint="Tên chương trình liên kết ..."
+        android:id="@+id/tenchuongtrinh_edt"
+        android:background="#F4F1EB"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Tên doanh nghiệp ..."
+        android:id="@+id/tendoanhnghiep_edt"
+        android:background="#F4EFE5"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Người đại diện ..."
+        android:id="@+id/nguoidaidien_edt"
+        android:background="#F4ECDB"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Chức vụ ..."
+        android:id="@+id/chucvu_edt"
+        android:background="#F3E5CA"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Nội dung chính ..."
+        android:id="@+id/noidungchinh_edt"
+        android:background="#F6E4C1"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="310dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Thời gian dự kiến ..."
+        android:id="@+id/thoigiandukien_edt"
+        android:background="#F4DFB5"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <EditText
+        android:hint="Ghi chú ..."
+        android:id="@+id/ghichu_edt"
+        android:background="#F6D89D"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="430dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"></EditText>
+    <ImageView
+        android:src="@drawable/connectllk"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView>
+    <ImageView
+        android:src="@drawable/doanhnghiep1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView>
+    <ImageView
+        android:src="@drawable/userlk"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView> <ImageView
+    android:src="@drawable/ranklk"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="250dp"
+    android:layout_width="40dp"
+    android:layout_height="40dp">
+
+</ImageView> <ImageView
+    android:src="@drawable/contentlk"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="310dp"
+    android:layout_width="40dp"
+    android:layout_height="40dp">
+
+</ImageView>
+    <ImageView
+        android:src="@drawable/timelk"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView>
+    <ImageView
+        android:src="@drawable/chatlk"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+    </ImageView>
+    <ImageView
+        android:background="#F8F6F2"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="390dp"
+        android:layout_width="7dp"
+        android:layout_height="400dp"></ImageView>
+    <ImageView
+        android:background="#F4BD40"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="390dp"
+        android:layout_width="7dp"
+        android:layout_height="300dp"></ImageView>
+    <ImageView
+        android:background="#F8F6F2"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="50dp"></ImageView>
+    <ImageView
+        android:background="#EFECE6"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="50dp"></ImageView>
+    <ImageView
+        android:background="#F1C774"
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="50dp"></ImageView>
+    <ImageView
+        android:background="#E6B552"
+        android:layout_marginTop="25dp"
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:layout_marginStart="50dp"></ImageView>
+
+    <Button
+        android:id="@+id/guidexuat_btn"
+        android:background="#E8CF83"
+        android:layout_marginStart="30dp"
+        android:text="Gửi đề xuất"
+        android:layout_marginTop="490dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"></Button>
+    <Button
+        android:id="@+id/danhsachdexuat_btn"
+        android:background="#E8C96B"
+        android:layout_marginStart="30dp"
+        android:text="Danh sách đề xuất đã gửi"
+        android:layout_marginTop="550dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"></Button>
+</RelativeLayout>

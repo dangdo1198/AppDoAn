@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.XemChiTietChuongTrinhLienKet"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tenchuongtrinh_txt"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#1F8E23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuộc thi internet 4.0"></TextView>
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sausao"></ImageView>
+            <TextView
+                android:id="@+id/tendoanhnghiep_txt"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tập đoàn Sam Sung"
+                android:layout_marginTop="60dp"
+                android:textColor="#2846ED"
+                android:textStyle="italic"></TextView>
+            <TextView
+                android:textColor="#AA6B0D"
+                android:id="@+id/noidungchinh_txt"
+                android:layout_marginTop="100dp"
+                android:textSize="18sp"
+                android:text="Tổ hTổ co lưt giao lưuTổ chứclưt getting gặp mặt giao lưuTổ chứcTổ hTổ co lưt getting gặp mặt giao lưuTổ chứcTổ hTổ co lưt getting gặp mặt giao lưuTổ chứcTổ hTổ co lưt getting gặp mặt giao lưuTổ chứcTổ hTổ co lưt getting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưuTổ chức metting gặp mặt giao lưu và định hướng công nghệ cho sinh viên KMA. Tổ chức và triển thi cuộc thi trên nền tảng internet, nhằm tìm kiếm tài năng trẻ. Kết hợp phối hợp với nhà trường trao học bổng cho các sinh viên có tiến bộ trong học tập."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic|bold"
+                android:id="@+id/thoigiandukien_txt"
+                android:layout_below="@id/noidungchinh_txt"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09-09-2021"></TextView>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:id="@+id/label1"
+                android:text="Thời gian dự kiến:"
+                android:textColor="@color/mdtp_line_dark"
+                android:textSize="18sp"
+                android:layout_below="@id/noidungchinh_txt"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </androidx.constraintlayout.utils.widget.MotionLabel>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:id="@+id/label2"
+                android:text="Ghi chú:"
+                android:textColor="@color/mdtp_line_dark"
+                android:textSize="18sp"
+                android:layout_below="@id/thoigiandukien_txt"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></androidx.constraintlayout.utils.widget.MotionLabel>
+            <TextView
+                android:textStyle="italic"
+                android:textSize="18sp"
+                android:id="@+id/ghichu_txt"
+                android:layout_below="@id/thoigiandukien_txt"
+                android:layout_marginStart="60dp"
+                android:textColor="@color/mdtp_red"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cảm ơn"></TextView>
+            <TextView
+                android:textColor="@color/mdtp_light_gray"
+                android:textSize="18sp"
+                android:id="@+id/ngaythang_txt"
+                android:layout_below="@id/ghichu_txt"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hà Nội ngày 14 tháng 01 năm 2022"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:id="@+id/chucvu_txt"
+                android:layout_below="@id/ngaythang_txt"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="giám đốc"></TextView>
+            <TextView
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/nguoidaidien_txt"
+                android:layout_below="@id/chucvu_txt"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoàng Mạnh Cường"></TextView>
+            <TextView
+                android:id="@+id/id_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_below="@id/nguoidaidien_txt"
+                android:layout_marginTop="300dp"
+                android:textColor="#EAEFEF">
+
+            </TextView>
+        </RelativeLayout>
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/quaylai_img"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/quaylai1">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/ditiep_img"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ditiep2">
+
+        </ImageView>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

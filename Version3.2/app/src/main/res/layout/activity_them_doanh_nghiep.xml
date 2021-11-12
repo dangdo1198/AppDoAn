@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ThemDoanhNghiep">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mdtp_red"
+        >
+
+    </ImageView>
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="60dp"
+        android:background="#F4B3CA"
+        android:id="@+id/tendoanhnghiep_edt"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Tên doanh nghiệp ......"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/giamdoc_edt"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:background="#FABCD0"
+        android:hint="Giám đốc ......"
+        android:textSize="18sp"
+        android:textStyle="italic"
+
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"
+        android:background="#F4C2D3"
+        android:id="@+id/linhvuc_edt"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Lĩnh vực ......"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:background="#F6D0DC"
+        android:id="@+id/namhoptac_edt"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Năm hợp tác ......"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:background="#F4D8E3"
+        android:id="@+id/truso_edt"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Địa điểm ......"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+
+    </EditText>
+    <EditText
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:background="#FFE0EA"
+        android:id="@+id/hotline_edt"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Hotline ......"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+    <EditText
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="400dp"
+        android:background="#FFE0EA"
+        android:id="@+id/website_edt"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:hint="Website ......"
+        android:textColor="@color/mdtp_done_text_color_normal">
+
+    </EditText>
+    <Button
+        android:id="@+id/themdoanhnghiep_btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:text="THÊM"
+        android:background="#E8F6F8"></Button>
+
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_marginStart="260dp"
+
+        android:layout_marginTop="20dp"
+        android:src="@drawable/themdoanhnghiep"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_marginStart="300dp"
+
+        android:layout_marginTop="20dp"
+        android:src="@drawable/themdoanhnghiep"
+        >
+
+    </ImageView>
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="20pt"
+        android:layout_marginStart="340dp"
+
+        android:layout_marginTop="20dp"
+        android:src="@drawable/themdoanhnghiep"
+        >
+
+    </ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lineardetaiduyet"
+    android:orientation="horizontal"
+    android:background="#F1F0EC">
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="3dp"
+        android:background="#4BAF27"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8ED91">
+        <TextView
+            android:id="@+id/id_txt"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:background="#AC6B0B"
+            android:textColor="#F1EBEB"
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tendetai_txt"
+            android:text="nghiên cứu hệ thống tường lửa nghiên cứu hệ thống tường lửa"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/mdtp_red"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/linhvuc_txt"
+            android:layout_marginTop="72dp"
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Công nghệ thông tin"
+            android:textSize="20sp"
+            android:textColor="#4D2398"></TextView>
+        <TextView
+            android:id="@+id/thoigian_txt"
+            android:textColor="#77AA3B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="102dp"
+            android:layout_marginStart="135dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 tháng"></TextView>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#1231DC"
+            android:id="@+id/kinhphi_txt"
+            android:layout_marginStart="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 $"
+            android:textSize="18sp"></TextView>
+        <TextView
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:textColor="#C83D11"
+            android:id="@+id/lydo_txt"
+            android:layout_marginStart="75dp"
+            android:text="Nhà trường cho rằng đề tài của em không "
+            android:layout_marginTop="128dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:layout_marginTop="130dp"
+            android:textSize="18sp"
+            android:textColor="@color/mdtp_line_dark"
+            android:text="Phản hồi:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.utils.widget.MotionLabel>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:text="Lĩnh vực:"
+            android:textColor="@color/mdtp_line_dark"
+            android:textSize="18sp"
+            android:layout_marginTop="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.utils.widget.MotionLabel>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:textSize="18sp"
+            android:textColor="@color/mdtp_date_picker_text_disabled_dark_theme"
+            android:textStyle="italic"
+            android:layout_marginStart="240dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kinh phí:"
+            android:layout_marginTop="2dp">
+
+        </androidx.constraintlayout.utils.widget.MotionLabel>
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:textSize="18sp"
+            android:textColor="@color/mdtp_line_dark"
+            android:layout_marginTop="105dp"
+            android:text="Dự kiến hoàn thành:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.utils.widget.MotionLabel>
+        <ImageView
+            android:layout_marginStart="365dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/tick"></ImageView>
+    </RelativeLayout>
+
+
+</LinearLayout>
